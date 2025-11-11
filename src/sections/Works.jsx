@@ -130,9 +130,12 @@ const Works = () => {
 
             {/* title */}
             <div className="flex justify-between px-10 text-black transition-all duration-500 md:group-hover:px-12 md:group-hover:text-white">
-              <h2 className="lg:text-[32px] text-[26px] leading-none">
-                {project.name}
-              </h2>
+              <a href={project.link} target="_blank">
+                <h2 className="lg:text-[32px] text-[26px] leading-none">
+                  {project.name}
+                </h2>
+                <p>{project.description}</p>
+              </a>
               <Icon icon="lucide:arrow-up-right" className="md:size-6 size-5" />
             </div>
             {/* divider */}

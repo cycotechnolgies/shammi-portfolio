@@ -57,118 +57,149 @@ export const servicesData = [
 export const projects = [
   {
     id: 1,
-    name: "Mobile Accessories E-commerce",
+    name: "Riyaduru Piyasa Driving School",
     description:
-      "An online store specializing in phone accessories including cases, chargers, cables, and power banks with MagSafe compatibility.",
+      "An web application for a driving school that offers online course registration, scheduling, and payment processing.",
     href: "",
-    image: "/assets/projects/mobile-accessories-store.jpg",
+    image: "/assets/projects/rpsms.jpg",
     bgImage: "/assets/backgrounds/blanket.jpg",
+    link: "https://riyadurupiyasa.lk/",
     frameworks: [
-      { id: 1, name: "React" },
-      { id: 2, name: "Next.js" },
-      { id: 3, name: "Node.js" },
-      { id: 4, name: "MongoDB" },
-      { id: 5, name: "Tailwind CSS" },
+      { id: 1, name: "PHP" },
+      { id: 2, name: "MySQL" },
+      { id: 3, name: "Tailwind CSS" },
+      { id: 4, name: "JavaScript" },
     ],
   },
   {
     id: 2,
-    name: "Plant Shop E-commerce",
+    name: "Ayulanka Tours Agency",
     description:
-      "An online store specializing in rare and decorative plants with a clean, user-friendly interface.",
+      "An online platform for a travel agency that provides tour packages, booking management, and customer reviews.",
     href: "",
-    image: "/assets/projects/plant-shop.jpg",
+    image: "/assets/projects/alt.jpg",
     bgImage: "/assets/backgrounds/curtains.jpg",
+    link: "https://ayulankatours.lk/",
     frameworks: [
-      { id: 1, name: "React" },
-      { id: 2, name: "Next.js" },
-      { id: 3, name: "Stripe API" },
+      { id: 1, name: "Blade" },
+      { id: 2, name: "JavaScript" },
+      { id: 3, name: "Laravel" },
       { id: 4, name: "Tailwind CSS" },
     ],
   },
   {
     id: 3,
-    name: "Apple Tech Marketplace",
+    name: "Driving School Management System",
     description:
-      "An e-commerce platform for Apple products and accessories with deals and category filtering.",
+      "A comprehensive management system for driving schools to handle student enrollment, scheduling, and progress tracking.",
     href: "",
-    image: "/assets/projects/apple-tech-store.jpg",
+    image: "/assets/projects/dsms.png",
     bgImage: "/assets/backgrounds/map.jpg",
+    link: "https://github.com/cycotechnolgies/DSMS_MiniProject",
     frameworks: [
-      { id: 1, name: "Blazor" },
-      { id: 2, name: "ASP.NET Core" },
-      { id: 3, name: "SQL Server" },
-      { id: 4, name: "Bootstrap" },
+      { id: 1, name: "MERN Stack" },
+      { id: 2, name: "Tailwind CSS" },
+      { id: 3, name: "JWT Auth" },
     ],
   },
   {
     id: 4,
-    name: "Electronics & Gadgets Store",
+    name: "OLLY Clothing Store",
     description:
-      "A multi-category online shop featuring electronics, home appliances, and gaming gear with special offers.",
+      "An e-commerce website for a clothing store featuring product listings, shopping cart, and secure checkout.",
     href: "",
-    image: "/assets/projects/electronics-store.jpg",
+    image: "/assets/projects/olly.png",
     bgImage: "/assets/backgrounds/poster.jpg",
+    link: "https://github.com/cycotechnolgies/Online-Clothing-Shop",
     frameworks: [
-      { id: 1, name: "Vue.js" },
-      { id: 2, name: "Laravel" },
-      { id: 3, name: "MySQL" },
-      { id: 4, name: "SCSS" },
+      { id: 1, name: "MERN Stack" },
+      { id: 2, name: "Tailwind CSS" },
+      { id: 3, name: "JWT Auth" },
     ],
   },
   {
     id: 5,
-    name: "Home Decor Marketplace",
+    name: "Amazon Review Sentiment Analysis",
     description:
-      "A curated collection of designer home decor items, including furniture and artisan vases.",
+      "A data science project analyzing customer reviews to classify sentiments and extract key insights for product improvement.",
     href: "",
-    image: "/assets/projects/home-decor-store.jpg",
+    image: "/assets/projects/awsa.jpg",
     bgImage: "/assets/backgrounds/table.jpg",
+    link: "https://github.com/cycotechnolgies/Product-Review-Sentiment-Analyzer-ML",
     frameworks: [
-      { id: 1, name: "Angular" },
-      { id: 2, name: "Firebase" },
-      { id: 3, name: "GraphQL" },
-      { id: 4, name: "Material UI" },
-    ],
-  },
-  {
-    id: 6,
-    name: "Digital Game Store",
-    description:
-      "A gaming platform featuring discounted titles, top sellers, and genre-based browsing.",
-    href: "",
-    image: "/assets/projects/game-store.jpg",
-    bgImage: "/assets/backgrounds/curtains.jpg",
-    frameworks: [
-      { id: 1, name: "Svelte" },
-      { id: 2, name: "Node.js" },
-      { id: 3, name: "MongoDB" },
-      { id: 4, name: "Chakra UI" },
+      { id: 1, name: "Python" },
+      { id: 2, name: "Scikitlern" },
+      { id: 3, name: "Pandas, Numpy" },
+      { id: 4, name: "Fast API" },
     ],
   },
 ];
 export const socials = [
-  { name: "LinkedIn", href: "https://www.linkedin.com/in/ali-sanati/" },
-  { name: "GitHub", href: "https://github.com/Ali-Sanati" },
+  { name: "LinkedIn", href: "https://www.linkedin.com/in/shammi-nethupul/" },
+  { name: "GitHub", href: "https://github.com/cycotechnolgies" },
 ];
 
-export const educationData = [
+export const Highlights = [
   {
-    year: "2025",
-    degree: "Bachelor of Laws Honours (LLB)",
-    institution: "University of Colombo, Faculty of Law",
-    description: "Specialized in Human Rights Law (LLB 31302).",
+    title: "Education",
+    description:
+      "A structured academic foundation that strengthens my abilities.",
+    items: [
+      {
+        title: "BSc (Hons) in Information Technology",
+        description: "University of Colombo | Ongoing",
+      },
+      {
+        title: "G.E.C. Advanced Level in Technology Stream",
+        description: "Passed with 3B grades | District rank 4",
+      },
+      {
+        title: "G.E.C. Ordinary Level",
+        description: "Passed with 5 A, 4B grades | Strong fundamentals",
+      },
+    ],
   },
   {
-    year: "2021",
-    degree: "Diploma in Psychology & Counseling",
-    institution: "XYZ Institute",
-    description: "Completed coursework and case study assignments.",
+    title: "Technical Skills",
+    description:
+      "A versatile technical stack used to engineer secure, high-performance applications across the full development lifecycle.",
+    items: [
+      {
+        title: "Web Development",
+        description: "MERN, Laravel, TailwindCSS, JavaScript, PHP, MySQL",
+      },
+      {
+        title: "AI & Data Science",
+        description: "Python, Pandas, NumPy, Matplotlib, Machine Learning Basics",
+      },
+      {
+        title: "Tools",
+        description: "Git/GitHub, Docker, CI/CD, Linux, AWS, Postman, Figma",
+      },
+    ],
   },
   {
-    year: "2020",
-    degree: "Bachelor’s in Mass Communication",
-    institution: "ABC University",
-    description: "Graduated with honors in media studies.",
+    title: "Certifications",
+    description:
+      "Credentials that validate my practical capabilities and continuous commitment to professional growth.",
+    items: [
+      {
+        title: "Data Science Essentials With Python",
+        description: "Issued by Cisco Networking Academy",
+      },
+      {
+        title: "Python Programming ",
+        description: "Issued by UOM & DP Education",
+      },
+      {
+        title: "AWS cloud Practitioner",
+        description: "Issued by Amazon Web Services (AWS)",
+      },
+      {
+        title: "Docker (Level 1,2)",
+        description: "Issued by KodeKloud Engineers",
+      },
+    ],
   },
 ];
+
