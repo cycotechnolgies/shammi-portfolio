@@ -61,8 +61,8 @@ export const projects = [
     description:
       "An web application for a driving school that offers online course registration, scheduling, and payment processing.",
     href: "",
-    image: "/assets/projects/rpsms.jpg",
-    bgImage: "/assets/backgrounds/blanket.jpg",
+    image: "images/projects/rpsms.jpg",
+    bgImage: "images/backgrounds/blanket.jpg",
     link: "https://riyadurupiyasa.lk/",
     frameworks: [
       { id: 1, name: "PHP" },
@@ -77,8 +77,8 @@ export const projects = [
     description:
       "An online platform for a travel agency that provides tour packages, booking management, and customer reviews.",
     href: "",
-    image: "/assets/projects/alt.jpg",
-    bgImage: "/assets/backgrounds/curtains.jpg",
+    image: "images/projects/alt.jpg",
+    bgImage: "images/backgrounds/curtains.jpg",
     link: "https://ayulankatours.lk/",
     frameworks: [
       { id: 1, name: "Blade" },
@@ -93,8 +93,8 @@ export const projects = [
     description:
       "A comprehensive management system for driving schools to handle student enrollment, scheduling, and progress tracking.",
     href: "",
-    image: "/assets/projects/dsms.png",
-    bgImage: "/assets/backgrounds/map.jpg",
+    image: "images/projects/dsms.png",
+    bgImage: "images/backgrounds/map.jpg",
     link: "https://github.com/cycotechnolgies/DSMS_MiniProject",
     frameworks: [
       { id: 1, name: "MERN Stack" },
@@ -108,8 +108,8 @@ export const projects = [
     description:
       "An e-commerce website for a clothing store featuring product listings, shopping cart, and secure checkout.",
     href: "",
-    image: "/assets/projects/olly.png",
-    bgImage: "/assets/backgrounds/poster.jpg",
+    image: "images/projects/olly.png",
+    bgImage: "images/backgrounds/poster.jpg",
     link: "https://github.com/cycotechnolgies/Online-Clothing-Shop",
     frameworks: [
       { id: 1, name: "MERN Stack" },
@@ -123,8 +123,8 @@ export const projects = [
     description:
       "A data science project analyzing customer reviews to classify sentiments and extract key insights for product improvement.",
     href: "",
-    image: "/assets/projects/awsa.jpg",
-    bgImage: "/assets/backgrounds/table.jpg",
+    image: "images/projects/awsa.jpg",
+    bgImage: "images/backgrounds/table.jpg",
     link: "https://github.com/cycotechnolgies/Product-Review-Sentiment-Analyzer-ML",
     frameworks: [
       { id: 1, name: "Python" },
