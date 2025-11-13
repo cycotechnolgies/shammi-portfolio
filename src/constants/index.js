@@ -188,6 +188,10 @@ export const Highlights = [
         description: "Issued by Cisco Networking Academy",
       },
       {
+        title: "AI/ML Stage 1",
+        description: "Issued by SLIIT University",
+      },
+      {
         title: "Python Programming ",
         description: "Issued by UOM & DP Education",
       },
